@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/immoc_demo
+    username: root
+    password: ninebot
+  session:
+    store-type: none
+security:
+  basic:
+    enabled: true
+server:
+  port: 8089
+
+immoc:
+  security:
+    browser:
+      loginPage: /demo_login.html
+      loginType: REDIRECT
+    code:
+      image:
+        length: 4
+        url: /user,/user/*

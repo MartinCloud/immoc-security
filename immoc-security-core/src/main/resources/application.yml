@@ -1,0 +1,5 @@
+
+immoc:
+  security:
+    browser:
+      loginType: REDIRECT

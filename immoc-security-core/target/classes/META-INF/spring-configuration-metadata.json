@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.immoc.security.properties.MySecurityProperties",
+      "name": "immoc.security",
+      "type": "com.immoc.security.properties.MySecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.immoc.security.properties.MySecurityProperties",
+      "name": "immoc.security.browser",
+      "type": "com.immoc.security.properties.BrowserProperties"
+    },
+    {
+      "sourceType": "com.immoc.security.properties.MySecurityProperties",
+      "name": "immoc.security.validation-code-properties",
+      "type": "com.immoc.security.properties.ValidationCodeProperties"
+    }
+  ]
+}
